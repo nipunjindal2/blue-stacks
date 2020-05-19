@@ -1,16 +1,28 @@
 .mainTable{
     width: 90%;
-    border-spacing: 20px;
     border: 2px solid grey;
     box-shadow:5px 5px 6px #ccc;
     margin-bottom: 50px;
     z-index: 90;
+    border-collapse: collapse;
 }
 
 .utility{
     height: 40%;
     margin-left : 10px;
     margin-bottom: -5px;
+}
+
+
+
+.body tr td{
+    padding: 15px 10px;
+}
+
+.heading tr th{
+    border-collapse: collapse ;
+    padding: 10px 0;
+    border-bottom: 2px solid grey;
 }
 
 
