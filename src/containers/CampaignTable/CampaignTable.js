@@ -137,7 +137,8 @@ class CampaignTable extends Component {
       data: newData,
       showCalendar: !showCalendar,
     });
-    
+        this.showTab(this.state.screen);
+
   };
 
   calendarBackdropHandler = () => {
