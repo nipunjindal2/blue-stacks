@@ -13,7 +13,7 @@
     "react-moment": "^0.9.7",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "homepage": "http://nipunjindal2.github.io/bluestacks"
+    "homepage": "https://nipunjindal2.github.io/bluestacks"
   },
   "scripts": {
     "start": "react-scripts start",
