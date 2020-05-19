@@ -30,7 +30,7 @@ const displayTable = (props) => {
               </tr>
             </thead>
 
-            <tbody>
+            <tbody className="body">
               {props.data.map((data, i) => {
                 return (
                  
