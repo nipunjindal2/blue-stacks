@@ -30,7 +30,7 @@ const displayTable = (props) => {
               </tr>
             </thead>
 
-            <tbody className="body">
+            <tbody className = "body">
               {props.data.map((data, i) => {
                 return (
                  
@@ -60,25 +60,25 @@ const displayTable = (props) => {
                     </td>
                     <td className = "actions">
                       <span>
-                        <img className="utility" src={csv} alt="CSV_PNG" />
+                        <img className="utility png" src={csv} alt="CSV_PNG" />
                       </span>{" "}
                       <span>
-                        <button className="btn-util">CSV</button>
+                        <button className="btn-util icon">CSV</button>
                       </span>
                       <span>
-                        <img className="utility" src={stats} alt="Stats_PNG" />
+                        <img className="utility png" src={stats} alt="Stats_PNG" />
                       </span>{" "}
                       <span>
-                        <button className="btn-util">Report</button>
+                        <button className="btn-util icon">Report</button>
                       </span>
                       <span onClick={(id) => props.reSchedule(data.id)}>
                         <img
-                          className="utility"
+                          className="utility png"
                           src={calendar}
                           alt="Calendar_PNG"
                         />
                         <span>
-                          <button className="btn-util">Schedule Again</button>
+                          <button className="btn-util icon">Schedule Again</button>
                         </span>
                       </span>
                     </td>
