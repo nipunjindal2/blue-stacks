@@ -42,7 +42,7 @@ const displayTable = (props) => {
                         {data.createdOn}
                       </Moment>
                     </td>
-                    <td className = "data">
+                    <td className = "data err">
                       <span >
                         <img style={{width: "60px"}} src={data.image_url}></img>
                       </span>
