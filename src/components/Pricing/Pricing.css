@@ -1,0 +1,33 @@
+.details{
+    display:flex;
+}
+
+.price-list{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.price-key{
+    color: #3c6382;
+    text-align: left;
+    
+}
+
+.price-value{
+    color: #3c6382;
+    font-weight: 500;
+}
+ 
+.outer{
+    display: inline-block;
+    width: 80%;
+}
+
+.btn-close{
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  border: 2px solid black;
+  margin-left: 38%;
+  cursor: pointer;
+}

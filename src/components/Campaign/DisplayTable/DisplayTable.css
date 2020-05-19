@@ -1,0 +1,99 @@
+.mainTable{
+    width: 90%;
+    border-spacing: 20px;
+    border: 2px solid grey;
+    box-shadow:5px 5px 6px #ccc;
+    margin-bottom: 50px;
+    z-index: 90;
+}
+
+.utility{
+    height: 40%;
+    margin-left : 10px;
+    margin-bottom: -5px;
+}
+
+
+.btn-util{
+    text-decoration: none;
+    background: none!important;
+    color: #3c6382;
+    padding-bottom: 12px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.no-data{
+    width: 75%;
+    font-size: 25px;
+    text-align: center;
+    color: #3c6382;
+    line-height: 200%;
+}
+
+.data{
+    display: flex;
+}
+
+.data-text{
+    padding-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .mainTable{
+        border-spacing: 0px;
+        padding: 8px ;
+        margin-top: 10px;
+        margin-left: -31px;
+    }
+    .mainTable thead tr{
+        border-bottom: 2px solid black;
+    }
+    .data{
+        padding-top: 10px;
+        margin-top: 35px;;
+    }
+    .no-data{
+        padding-top: 50px;
+        width: 80%;
+        font-size: 15px;
+    }
+    .actions{
+        padding: 25px 0;
+    }
+     
+}
+
+
+@media only screen and (max-width: 1000px){
+    .mainTable{
+        width: 100%;
+        border-spacing: 0px;
+        padding: 8px ;
+        margin-top: 10px;
+        margin-left: -31px;
+    }
+    .mainTable thead tr{
+        border-bottom: 2px solid black;
+    }
+    .data{
+        padding-top: 10px;
+        
+    }
+    .no-data{
+        padding-top: 50px;
+        width: 80%;
+        font-size: 15px;
+    }
+    .actions{
+        padding: 25px 0;
+    }
+
+    .btn-util{
+        margin-left: -6px;
+    }
+     
+}

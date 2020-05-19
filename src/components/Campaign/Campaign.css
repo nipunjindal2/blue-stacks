@@ -1,0 +1,66 @@
+.Navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.Navigation li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.Navigation li button {
+    text-decoration: none;
+    background: none!important;
+    font-size: 150%;
+    padding-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    outline: none;
+}
+
+button{
+    color: #3c6382;
+    border-bottom: 4px solid transparent;
+}
+
+
+.Navigation li button .active{
+    color: #6ab04c;
+    border-bottom: 4px solid#6ab04c;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    
+    .Navigation li{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .Navigation li button {
+        font-size: 100%;
+        padding-bottom: 7px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+    
+    .Navigation li{
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .Navigation li button {
+        font-size: 110%;
+        padding-bottom: 7px;
+    }
+
+}
+

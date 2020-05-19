@@ -1,0 +1,25 @@
+.Content{
+    padding-top: 35px;
+    padding-left: 100px;
+}
+
+.Content h1{
+    color: #0a3d62;
+}
+
+.Head{
+    height: 65px;
+    width: 100%;
+}
+
+@media only screen and (max-width : 600px){
+    .Content{
+        padding-top: 25px;
+        padding-left: 10%;
+    }
+
+    .Content h1{
+        width: 110%;
+    }
+}
+
